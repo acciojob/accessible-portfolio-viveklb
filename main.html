@@ -1,16 +1,43 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Accessible Nature Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <!-- Heading -->
+    <h1 role="heading">Beautiful Nature</h1>
+
+    <!-- Navigation -->
+    <nav role="navigation">
+        <a href="#about">About</a> |
+        <a href="#places">Places</a>
+    </nav>
+
+    <!-- Image -->
+    <img role="img"
+         src="https://via.placeholder.com/600x300"
+         alt="Scenic view of mountains and river">
+
+    <!-- Description -->
+    <section id="about">
+        <p>
+            Nature offers breathtaking landscapes, peaceful environments, and diverse ecosystems
+            that inspire and refresh the human mind.
+        </p>
+    </section>
+
+    <!-- List -->
+    <section id="places">
+        <h2>Famous Natural Places</h2>
+        <ul role="list">
+            <li role="listitem">Mountains</li>
+            <li role="listitem">Rivers</li>
+            <li role="listitem">Forests</li>
+        </ul>
+    </section>
 
 </body>
-
 </html>
